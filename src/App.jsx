@@ -1,5 +1,5 @@
-import Header from './components/header/Header'
-import Sidebar from './components/sidebar/Sidebar'
+import Header from './Dash-Board/Header'
+import Sidebar from './Dash-Board/Sidebar'
 import { Outlet } from 'react-router-dom'
 /* import NavBar from './NavBar/NavBar' */
 /* To upload charts use npm i recharts */

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import App from '../App'
-import Main from "../components/Main/Main"
+import Main from "../Dash-Board/Main"
 
 const Router = () => {
   return (

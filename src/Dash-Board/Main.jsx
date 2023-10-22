@@ -1,7 +1,6 @@
 import { FaEllipsisV, FaRegCalendarMinus } from "react-icons/fa"
-/* import Graph from "../Graph.jsx/Graph" */
-import PieComponent from "../PieChart.jsx/PieComponent"
-import Graph_2 from "../Graph.jsx/Graph-2"
+import PieComponent from "./PieComponent"
+import Graph_2 from "./Graph-2"
 import { Progress } from "antd"
 
 
