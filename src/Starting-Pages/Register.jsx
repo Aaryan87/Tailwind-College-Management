@@ -13,7 +13,7 @@ function Register(){
                     <div className="w-full lg:w-1/2 py-16 px-12">
                         <h2 className="text-3xl mb-4">Register</h2>
                         <p className="mb-4">
-                            Create your account. It's free and only take a minute
+                            Create your account. Its free and only take a minute
                         </p>
                         <form>
                             <div className="grid gird-cols-2 gap-5">
