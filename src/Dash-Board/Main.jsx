@@ -41,6 +41,7 @@ const Main = () => {
 
           {/* Third Card Component */}
 
+        <Link to="assisgnment">  
         <div className=' h-[100px] rounded-[8px] bg-white border-l-[4px] border-[#e4eb5b] flex items-center justify-between px-[30px] cursor-pointer hover:shadow-lg transform hover:scale-[103%] transition duration-300 ease-out'>
           <div>
             <h2 className='text-[#B589DF] text-[11px] leading-[17px] font-bold'>Assisgnment</h2>
@@ -48,6 +49,7 @@ const Main = () => {
           </div>
             <FaRegCalendarMinus fontSize={28} color="" />
         </div>
+        </Link>
 
         {/* Fourth Card Component */}
 
