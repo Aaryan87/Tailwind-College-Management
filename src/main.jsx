@@ -6,7 +6,7 @@ import Index from './Student/Index'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Router/> */}
-    <Index/>
+    <Router/>
+    {/* <Index/> */}
   </React.StrictMode>,
 )

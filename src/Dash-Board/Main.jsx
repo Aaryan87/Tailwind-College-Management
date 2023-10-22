@@ -2,6 +2,7 @@ import { FaEllipsisV, FaRegCalendarMinus } from "react-icons/fa"
 import PieComponent from "./PieComponent"
 import Graph_2 from "./Graph-2"
 import { Progress } from "antd"
+import { Link } from "react-router-dom"
 
 
 const Main = () => {
@@ -20,8 +21,13 @@ const Main = () => {
           <h2 className='text-[#B589DF] text-[11px] leading-[17px] font-bold'>Add Student</h2>
           <h1 className='text-[20px] leading-[24px] font-bold text-[#5a5c69] mt-[5px]'>CRUD</h1>
         </div>
-          <FaRegCalendarMinus fontSize={28} color="" />
-        </div>
+        <Link to="addstudent">
+          <button>
+            <FaRegCalendarMinus fontSize={28} color="" />
+          </button>
+        </Link>
+        
+      </div>
 
         {/* Second Card Component */}
 

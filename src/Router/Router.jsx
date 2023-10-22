@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import App from '../App'
 import Main from "../Dash-Board/Main"
+import Index from "../Student/Index"
 
 const Router = () => {
   return (
@@ -9,6 +10,7 @@ const Router = () => {
                 <Routes>
                     <Route path="/" element={<App />}>
                         <Route index element={<Main />} />
+                        <Route path="addstudent" element={<Index/>} />
                     </Route>
                 </Routes>
             </BrowserRouter>
