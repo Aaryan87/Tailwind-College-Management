@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addStudent } from './studentSlice';
+import { Link } from 'react-router-dom';
 
 function StudentForm() {
   const dispatch = useDispatch();
@@ -49,6 +50,9 @@ function StudentForm() {
         />
       </label>
       <button type="submit">Submit</button>
+      <Link to="/filter-student">
+      <button>Filter Here</button>
+      </Link>
     </form>
   );
 }
