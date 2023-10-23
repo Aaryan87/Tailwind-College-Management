@@ -14,6 +14,8 @@ const Router = () => {
                 <Routes>
                     <Route path="/register" element={<Register/>} />
                     <Route path="/login" element={<Login/>} />
+
+                    {/* Admin dashboard Routing done here */}
                     <Route path="/" element={<App />}>
                         <Route index element={<Main />} />
                         <Route path="addstudent" element={<Index/>} />
