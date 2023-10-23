@@ -29,6 +29,7 @@ const Main = () => {
 
         {/* Second Card Component */}
 
+        <Link to="addstaff">
         <div className=' h-[100px] rounded-[8px] bg-white border-l-[4px] border-[#56cd70] flex items-center justify-between px-[30px] cursor-pointer hover:shadow-lg transform hover:scale-[103%] transition duration-300 ease-out'>
           <div>
             <h2 className='text-[#B589DF] text-[11px] leading-[17px] font-bold'>Add Staff</h2>
@@ -36,6 +37,7 @@ const Main = () => {
           </div>
             <FaRegCalendarMinus fontSize={28} color="" />
         </div>
+        </Link>
 
           {/* Third Card Component */}
 
