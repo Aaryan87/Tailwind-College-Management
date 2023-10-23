@@ -3,6 +3,7 @@ import { Progress } from "antd"
 import { Link } from "react-router-dom"
 import Student_Graph from "./Student_Graph"
 import Student_PieComp from "./Student_PieComp"
+import error from '../assets/error.png'
 
 
 const Student_Main = () => {
@@ -126,7 +127,18 @@ const Student_Main = () => {
           </div>
         </div>
 
-        <div className='basis-[45%] border'></div>
+        <div className='basis-[45%] border'>
+            <div className='bg-[#F8F9FC] flex items-center justify-between py-[15px] px-[20px] border-b-[1px] border-[#EDEDED]'>
+                <h2 className='text-[#4e73df] text-[16px] leading-[19px] font-bold'> Resources</h2>
+                <FaEllipsisV color="gray" className='cursor-pointer' />
+            </div>
+            <div className='pl-[35px] flex items-center justify-center h-[100%]'>
+                <div>
+                    <img src={error} alt="" className='transform scale-[135%]' />
+                    <p className='mt-[15px] text-semibold text-gray-500'>No data available</p>
+                </div>
+            </div>
+        </div>
 
       </div>
 
