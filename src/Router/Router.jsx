@@ -6,6 +6,8 @@ import FileUpload from "../File-Upload/FileUpload"
 import Login from "../Starting-Pages/Login"
 import Register from "../Starting-Pages/Register"
 import ContactUs from "../Last-Pages/ContactUs"
+import Student_App from "../Student-Dash-Board/Student_App"
+import Student_Main from "../Student-Dash-Board/Student_Main"
 
 const Router = () => {
   return (
@@ -22,6 +24,13 @@ const Router = () => {
                         <Route path="assisgnment" element={<FileUpload/>} />
                         <Route path="contactus" element={<ContactUs/>} />
                     </Route>
+
+                    <Route path="/student-dashboard" element={<Student_App/>} >
+                        <Route index element={<Student_Main/>} />
+                        <Route path="assisgnment" element={<FileUpload/>} />
+                        <Route path="contactus" element={<ContactUs/>} />
+                    </Route>
+
                 </Routes>
             </BrowserRouter>
     </div>
