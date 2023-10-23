@@ -26,6 +26,7 @@ const Router = () => {
                         <Route path="contactus" element={<ContactUs/>} />
                     </Route>
 
+                    {/* Student dashboard Routing done here */}
                     <Route path="/student-dashboard" element={<Student_App/>} >
                         <Route index element={<Student_Main/>}/>
                         <Route path="assisgnment" element={<FileUpload/>}/>
