@@ -33,6 +33,7 @@ const Router = () => {
 
                         <Route path="assisgnment" element={<FileUpload/>} />
                         <Route path="contactus" element={<ContactUs/>} />
+                        <Route path="calendar" element={<Calendar/>}/>
                     </Route>
 
                     {/* Student dashboard Routing done here */}

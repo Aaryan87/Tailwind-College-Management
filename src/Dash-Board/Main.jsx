@@ -53,13 +53,15 @@ const Main = () => {
 
         {/* Fourth Card Component */}
 
+        <Link to="calendar">
         <div className=' h-[100px] rounded-[8px] bg-white border-l-[4px] border-[#f26d53] flex items-center justify-between px-[30px] cursor-pointer hover:shadow-lg transform hover:scale-[103%] transition duration-300 ease-out'>
           <div>
             <h2 className='text-[#B589DF] text-[11px] leading-[17px] font-bold'>Others</h2>
-            <h1 className='text-[20px] leading-[24px] font-bold text-[#5a5c69] mt-[5px]'>....</h1>
+            <h1 className='text-[20px] leading-[24px] font-bold text-[#5a5c69] mt-[5px]'>Calendar</h1>
           </div>
             <FaRegCalendarMinus fontSize={28} color="" />
         </div>
+        </Link>
 
       </div>
 
