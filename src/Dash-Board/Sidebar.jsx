@@ -31,17 +31,19 @@ const Sidebar = () => {
                 <Link to="/login">
                 <div className='flex items-center justify-between gap-[10px] py-[15px] cursor-pointer'>
                     <div className='flex items-center gap-[10px]'>
-                        <FaStickyNote color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Pages</p>
+                        <FaStickyNote color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Login</p>
                     </div>
                     <FaChevronRight color='white' />
                 </div>
                 </Link>
                 <div className='flex items-center gap-[10px] py-[15px]  cursor-pointer'>
-                    <FaRegChartBar color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Charts</p>
+                    <FaRegChartBar color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>About Us</p>
                 </div>
+                <Link to="contactus">
                 <div className='flex items-center gap-[10px] py-[15px] cursor-pointer'>
-                    <FaRegCalendarAlt color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Tables</p>
+                    <FaRegCalendarAlt color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Contact Us</p>
                 </div>
+                </Link>
             </div>
             <div className='pt-[15px]'>
                 <div className='flex items-center justify-center'>

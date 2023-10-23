@@ -5,6 +5,7 @@ import Index from "../Student/Index"
 import FileUpload from "../File-Upload/FileUpload"
 import Login from "../Starting-Pages/Login"
 import Register from "../Starting-Pages/Register"
+import ContactUs from "../Last-Pages/ContactUs"
 
 const Router = () => {
   return (
@@ -17,6 +18,7 @@ const Router = () => {
                         <Route index element={<Main />} />
                         <Route path="addstudent" element={<Index/>} />
                         <Route path="assisgnment" element={<FileUpload/>} />
+                        <Route path="contactus" element={<ContactUs/>} />
                     </Route>
                 </Routes>
             </BrowserRouter>
