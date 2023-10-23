@@ -7,10 +7,12 @@ const Student_SideBar = () => {
             <div className='px-[15px] py-[30px] flex items-center justify-center border-b-[1px] border-[#EDEDED]/[0.3]'>
                 <h1 className='text-white text-[20px] leading-[24px] font-extrabold cursor-pointer'>Student panel</h1>
             </div>
-            <div className='flex items-center gap-[15px] py-[20px] border-b-[1px] border-[#EDEDED]/[0.3] cursor-pointer'>
+           <Link to="/student-dashboard">
+           <div className='flex items-center gap-[15px] py-[20px] border-b-[1px] border-[#EDEDED]/[0.3] cursor-pointer'>
                 <FaTachometerAlt color='white' />
                 <p className='text-[14px] leading-[20px] font-bold text-white'>Dashboard</p>
             </div>
+           </Link>
             <div className='pt-[15px] border-b-[1px] border-[#EDEDED]/[0.3]'>
                 <p className='text-[10px] font-extrabold leading-[16px] text-white/[0.4]'> INTERFACE</p>
                 <div className='flex items-center justify-between gap-[10px] py-[15px] cursor-pointer'>
