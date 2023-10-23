@@ -10,6 +10,8 @@ import Student_App from "../Student-Dash-Board/Student_App"
 import Student_Main from "../Student-Dash-Board/Student_Main"
 import Calendar from "../calendar/cn_output"
 import Student_Filter_Index from "../Student/Student_Filter_Index"
+import Index1 from "../Staff/Index1"
+import Staff_Filter_Index from "../Staff/Staff_Filter_Index"
 
 const Router = () => {
   return (
@@ -25,6 +27,9 @@ const Router = () => {
 
                         <Route path="addstudent" element={<Index/>} />
                         <Route path="/filter-student" element={<Student_Filter_Index/>}/>
+
+                        <Route path="addstaff" element={<Index1/>}/>
+                        <Route path="/filter-staff" element={<Staff_Filter_Index/>}/>
 
                         <Route path="assisgnment" element={<FileUpload/>} />
                         <Route path="contactus" element={<ContactUs/>} />
