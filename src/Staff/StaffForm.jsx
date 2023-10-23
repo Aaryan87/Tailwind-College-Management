@@ -58,17 +58,6 @@ function StaffForm() {
           <button onClick={() => handleUpdate(member)}>Update</button>
         </div>
       ))}
-      {/* {handleFilter(staff).map(member => (
-        <div key={member.id}>
-          <p>ID: {member.id}</p>
-          <p>Name: {member.name}</p>
-          <p>Contact: {member.contact}</p>
-          <p>Address: {member.address}</p>
-          <p>Status: {member.status}</p>
-          <button onClick={() => handleRemove(member.id)}>Remove</button>
-          <button onClick={() => handleUpdate(member)}>Update</button>
-        </div>
-      ))} */}
     </div>
   );
 }
