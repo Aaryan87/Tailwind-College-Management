@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import google from '../assets/google.svg'
+import { Link } from 'react-router-dom';
 
 
 const cover_img = "https://plus.unsplash.com/premium_photo-1681505336207-cea25b6cf0ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2047&q=80"
@@ -106,11 +107,15 @@ const Login = () => {
 
             </div>
             <div className='w-full flex items-center justify-center'>
-                <p className='text-sm font-normal text-black'>Dont Have a account? <span className='font-semibold underline underline-offset-2 cursor-pointer'>Sign up for free</span></p>
+                <p className='text-sm font-normal text-black'>Dont Have a account? 
+                   <Link to="/register">
+                      <span className='font-semibold underline underline-offset-2 cursor-pointer'>Sign up for free</span>
+                   </Link>
+                </p>
             </div>
         </div>
     </div>
   )
 }
 
-export default Login
+export default Login;

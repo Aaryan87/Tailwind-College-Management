@@ -1,4 +1,5 @@
 import { FaTachometerAlt, FaRegSun, FaWrench, FaStickyNote, FaRegChartBar, FaRegCalendarAlt, FaChevronRight, FaChevronLeft, FaBolt } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 const Sidebar = () => {
     return (
@@ -27,12 +28,14 @@ const Sidebar = () => {
             </div>
             <div className='pt-[15px] border-b-[1px] border-[#EDEDED]/[0.3]'>
                 <p className='text-[10px] font-extrabold leading-[16px] text-white/[0.4]'> ADDONS</p>
+                <Link to="/login">
                 <div className='flex items-center justify-between gap-[10px] py-[15px] cursor-pointer'>
                     <div className='flex items-center gap-[10px]'>
                         <FaStickyNote color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Pages</p>
                     </div>
                     <FaChevronRight color='white' />
                 </div>
+                </Link>
                 <div className='flex items-center gap-[10px] py-[15px]  cursor-pointer'>
                     <FaRegChartBar color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Charts</p>
                 </div>
