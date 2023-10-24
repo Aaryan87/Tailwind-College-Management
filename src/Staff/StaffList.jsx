@@ -73,14 +73,14 @@ function StaffList() {
   };
 
   return (
-    <div className="mt-4 p-4">
+    <div className="mt-4 p-4 bg-gray-800 rounded-lg">
       <div className="mb-4">
         <input
           type="text"
           placeholder="Search by name"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full p-2 border rounded-lg mb-2"
+          className="w-full p-2 border rounded-lg mb-2 bg-gray-600 text-white"
         />
         <button
           onClick={() => setSearchQuery("")}
@@ -93,7 +93,7 @@ function StaffList() {
         {filteredStaff.map((staffMember) => (
           <li
             key={staffMember.id}
-            className="p-4 bg-white shadow-md rounded-lg"
+            className="p-4 bg-white/75 shadow-md rounded-lg "
           >
             <div className="text-lg font-semibold">
               Name: {staffMember.name}
