@@ -17,7 +17,7 @@ const Student_SideBar = () => {
                 <p className='text-[10px] font-extrabold leading-[16px] text-white/[0.4]'> INTERFACE</p>
                 <div className='flex items-center justify-between gap-[10px] py-[15px] cursor-pointer'>
                     <div className='flex items-center gap-[10px]'>
-                        <FaRegSun color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Components</p>
+                        <FaRegSun color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Gate Pass</p>
                     </div>
                     <FaChevronRight color='white' />
                 </div>
