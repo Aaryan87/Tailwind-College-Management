@@ -7,7 +7,7 @@ import error from "../assets/error.png";
 
 const Main = () => {
   return (
-    <div className="pt-[25px] px-[25px] bg-[#090909]">
+    <div className="pt-[25px] px-[25px] bg-[#090909] overflow-hidden pb-10">
       <div className="flex items-center justify-between py-4">
         <h1 className="text-white text-[28px] leading-[34px] font-normal cursor-pointer">
           Dashboard
