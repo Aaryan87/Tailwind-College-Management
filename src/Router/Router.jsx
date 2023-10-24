@@ -12,6 +12,7 @@ import Calendar from "../calendar/cn_output";
 import Student_Filter_Index from "../Student/Student_Filter_Index";
 import Index1 from "../Staff/Index1";
 import Staff_Filter_Index from "../Staff/Staff_Filter_Index";
+import Gate_Pass from "../Student/GatePass";
 
 const Router = () => {
   return (
@@ -30,6 +31,7 @@ const Router = () => {
 
             <Route path="addstaff" element={<Index1 />} />
             <Route path="/filter-staff" element={<Staff_Filter_Index />} />
+            <Route path="/gatepass" element={<Gate_Pass />} />
 
             <Route path="assisgnment" element={<FileUpload />} />
             <Route path="contactus" element={<ContactUs />} />

@@ -42,7 +42,7 @@ const Login = () => {
         />
       </div>
 
-      <div className='w-1/2 h-full bg-[#090909] flex flex-col p-20 justify-between items-center'>
+      <div className='w-1/2 h-full bg-gray-800 flex flex-col p-20 justify-between items-center'>
         <h1 className='w-full max-w-[500px] mx-auto text-xl text-[#f5f5f5] font-semibold mr-auto'>
           Interactive Brand
         </h1>
@@ -85,7 +85,7 @@ const Login = () => {
 
           <div className='w-full flex flex-col my-4'>
             <button
-              className='w-full text-[#f5f5f5] my-2 font-semibold bg-black rounded-md p-4 text-center flex items-center justify-center cursor-pointer'
+              className='w-full text-[#f5f5f5] my-2 font-semibold bg-purple-500 hover:bg-purple-700 ease-in-out duration-500 rounded-md p-4 text-center flex items-center justify-center cursor-pointer'
               onClick={clickhandler}
             >
               Login
@@ -97,7 +97,7 @@ const Login = () => {
 
           <div className='w-full flex items-center justify-center relative py-2'>
             <div className='w-full h-[1px] bg-[#f5f5f5]'></div>
-            <p className='text-lg absolute text-[#f5f5f5] bg-[#090909]'>or</p>
+            <p className='text-lg absolute text-[#f5f5f5] bg-gray-800 px-2'>or</p>
           </div>
 
           <div className='w-full text-[#f5f5f5] my-2 font-semibold bg-black rounded-md p-4 text-center flex items-center justify-center cursor-pointer'>
@@ -109,7 +109,7 @@ const Login = () => {
           <p className='text-sm font-normal text-[#f5f5f5]'>
             Don&apos;t Have an Account?{' '}
             <Link to='/register'>
-              <span className='font-semibold underline underline-offset-2 cursor-pointer'>Sign up for free</span>
+              <span className='font-semibold underline underline-offset-2 cursor-pointer '>Sign up for free</span>
             </Link>
           </p>
         </div>
