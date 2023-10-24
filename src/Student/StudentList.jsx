@@ -84,7 +84,7 @@ function StudentList() {
           placeholder="Search by name"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full p-2 border rounded-lg mb-2"
+          className="w-full p-2 border rounded-lg mb-2 bg-gray-600 text-white"
         />
         <button
           onClick={() => setSearchQuery("")}
@@ -96,7 +96,7 @@ function StudentList() {
 
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredStudents.map((student) => (
-          <div key={student.id} className="p-4 bg-white shadow-md rounded-lg">
+          <div key={student.id} className="p-4 bg-white/75 shadow-md rounded-lg">
             <div className="text-lg font-semibold">Name: {student.name}</div>
             <div className="text-gray-600">
               Address: {student.address.substring(0, 10)}...
