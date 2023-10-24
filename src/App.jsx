@@ -10,7 +10,7 @@ function App() {
         <Sidebar/>
       </div>
       <div className='basis-[88%] border overflow-scroll h-[100vh]'>
-        <Header/>
+        <Header />
         <div>
           <Outlet></Outlet>
         </div>
