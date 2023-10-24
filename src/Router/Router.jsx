@@ -14,6 +14,8 @@ import Index1 from "../Staff/Index1"
 import Staff_Filter_Index from "../Staff/Staff_Filter_Index"
 import Student_Attendance from "../Student-Details/Student_Attendance"
 import Gate_Pass from "../Student-Details/GatePass"
+import Staff_App from "../Staff-Dash-Board/Staff_App"
+import Staff_Main from "../Staff-Dash-Board/Staff_Main"
 
 const Router = () => {
   return (
@@ -42,6 +44,18 @@ const Router = () => {
                     <Route path="/student-dashboard" element={<Student_App/>} >
                         <Route index element={<Student_Main/>}/>
                         <Route path="student-attendance" element={<Student_Attendance/>}/>
+                        
+                        <Route path="assisgnment" element={<FileUpload/>}/>
+                        <Route path="contactus" element={<ContactUs/>}/>
+                        <Route path="calendar" element={<Calendar/>}/>
+
+                        <Route path="gate-pass" element={<Gate_Pass/>}/>
+                    </Route>
+
+                    {/* Staff DashBoard is here */}
+                    <Route path="/staff-dashboard" element={<Staff_App/>} >
+                        <Route index element={<Staff_Main/>}/>
+                        <Route path="addstudent" element={<Index/>} />
                         
                         <Route path="assisgnment" element={<FileUpload/>}/>
                         <Route path="contactus" element={<ContactUs/>}/>
