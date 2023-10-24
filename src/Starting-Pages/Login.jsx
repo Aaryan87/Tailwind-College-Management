@@ -33,7 +33,9 @@ const Login = () => {
         <div className='absolute top-[20%] left-[10%] flex flex-col prose text-[#f5f5f5] z-10'>
           <h1 className='text-5xl text-white font-extrabold my-4 font-poppins'>Turn Your Ideas into Reality</h1>
           <p className='text-xl text-white font-normal font-poppins'>
-            Start for free and get attractive offers from the community
+          At Our College, we are dedicated to providing a world-class education and fostering an 
+          environment of innovation, diversity, and personal growth. With a rich history of academic 
+          excellence and a commitment to the future, we stand as a beacon of learning and development.
           </p>
         </div>
         <img
@@ -44,7 +46,7 @@ const Login = () => {
 
       <div className='w-1/2 h-full bg-gray-800 flex flex-col p-20 justify-between items-center'>
         <h1 className='w-full max-w-[500px] mx-auto text-xl text-[#f5f5f5] font-semibold mr-auto'>
-          Interactive Brand
+          Mini-Chalkpad
         </h1>
 
         <div className='w-full flex flex-col max-w-[500px]'>

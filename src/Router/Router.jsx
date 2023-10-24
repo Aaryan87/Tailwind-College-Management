@@ -13,6 +13,7 @@ import Student_Filter_Index from "../Student/Student_Filter_Index"
 import Index1 from "../Staff/Index1"
 import Staff_Filter_Index from "../Staff/Staff_Filter_Index"
 import Student_Attendance from "../Student-Details/Student_Attendance"
+import Gate_Pass from "../Student-Details/GatePass"
 
 const Router = () => {
   return (
@@ -40,10 +41,13 @@ const Router = () => {
                     {/* Student dashboard Routing done here */}
                     <Route path="/student-dashboard" element={<Student_App/>} >
                         <Route index element={<Student_Main/>}/>
-                        <Route path="student-attendance" element={<Student_Attendance/>} />
+                        <Route path="student-attendance" element={<Student_Attendance/>}/>
+                        
                         <Route path="assisgnment" element={<FileUpload/>}/>
                         <Route path="contactus" element={<ContactUs/>}/>
                         <Route path="calendar" element={<Calendar/>}/>
+
+                        <Route path="gate-pass" element={<Gate_Pass/>}/>
                     </Route>
 
                 </Routes>

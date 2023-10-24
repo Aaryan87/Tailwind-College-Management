@@ -15,12 +15,14 @@ const Student_SideBar = () => {
            </Link>
             <div className='pt-[15px] border-b-[1px] border-[#EDEDED]/[0.3]'>
                 <p className='text-[10px] font-extrabold leading-[16px] text-white/[0.4]'> INTERFACE</p>
+                <Link to="gate-pass">
                 <div className='flex items-center justify-between gap-[10px] py-[15px] cursor-pointer'>
                     <div className='flex items-center gap-[10px]'>
                         <FaRegSun color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Gate Pass</p>
                     </div>
                     <FaChevronRight color='white' />
                 </div>
+                </Link>
                 <div className='flex items-center justify-between gap-[10px] py-[15px] cursor-pointer'>
                     <div className='flex items-center gap-[10px]'>
                         <FaWrench color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Utilities</p>
@@ -56,8 +58,8 @@ const Student_SideBar = () => {
             </div>
             <div className='bg-[#395CBF] mt-[15px] flex items-center justify-center flex-col py-[15px] px-[10px] gap-[15px] rounded-[3px]'>
                 <FaBolt color='white' />
-                <p className='text-[12px] leading-[18px] font-normal text-white/[0.4] text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, soluta.</p>
-                <button className='bg-[#17A673] text-white flex items-center justify-center h-[30px] w-full rounded-[3px] text-[14px] leading-[21px] font-normal'>Upgrade to Pro!</button>
+                <p className='text-[12px] leading-[18px] font-normal text-white/[0.4] text-center'>Click Here to know about what's going on..</p>
+                <button className='bg-[#17A673] text-white flex items-center justify-center h-[30px] w-full rounded-[3px] text-[14px] leading-[21px] font-normal'>Click Here!</button>
 
             </div>
         </div>

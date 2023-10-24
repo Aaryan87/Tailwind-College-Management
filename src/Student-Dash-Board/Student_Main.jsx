@@ -81,7 +81,7 @@ const Student_Main = () => {
 
         {/* Pie Chart Section */}
 
-        <div className='basis-[30%] border bg-white shadow-md cursor-pointer rpunded-[40px]'>
+        <div className='basis-[30%] border bg-white shadow-md cursor-pointer rounded-[20px]'>
           <div className='bg[#F8F9FC] flex items-center justify-between py-[15px] px-[20px] border-b-[1px] border-[#EDEDED]'>
             <h2>Performance</h2>
             <FaEllipsisV color="gray" className='cursor-pointer'/>

@@ -56,8 +56,8 @@ const Sidebar = () => {
             </div>
             <div className='bg-[#395CBF] mt-[15px] flex items-center justify-center flex-col py-[15px] px-[10px] gap-[15px] rounded-[3px]'>
                 <FaBolt color='white' />
-                <p className='text-[12px] leading-[18px] font-normal text-white/[0.4] text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, soluta.</p>
-                <button className='bg-[#17A673] text-white flex items-center justify-center h-[30px] w-full rounded-[3px] text-[14px] leading-[21px] font-normal'>Upgrade to Pro!</button>
+                <p className='text-[12px] leading-[18px] font-normal text-white/[0.4] text-center'>Click Here to know about what's going on..</p>
+                <button className='bg-[#17A673] text-white flex items-center justify-center h-[30px] w-full rounded-[3px] text-[14px] leading-[21px] font-normal'>Click Here!</button>
 
             </div>
         </div>
