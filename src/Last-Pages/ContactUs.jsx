@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPho
 
 const ContactUs = () => {
   return (
-    <div className='antialiased bg-gray-100'>
+    <div className='antialiased bg-gray-1z00'>
         <div className='flex w-full min-h-screen justify-center items-center'>
             <div className='flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-cyan-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden'>
                 <div className='flex flex-col  space-y-8 justify-between'>

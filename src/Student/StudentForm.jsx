@@ -24,36 +24,48 @@ function StudentForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Name:
-        <input
-          type="text"
-          value={name}
-          onChange={e => setName(e.target.value)}
-        />
-      </label>
-      <label>
-        Address:
-        <input
-          type="text"
-          value={address}
-          onChange={e => setAddress(e.target.value)}
-        />
-      </label>
-      <label>
-        Contact:
-        <input
-          type="text"
-          value={contact}
-          onChange={e => setContact(e.target.value)}
-        />
-      </label>
-      <button type="submit">Submit</button>
-      <Link to="/filter-student">
-      <button>Filter Here</button>
-      </Link>
-    </form>
+    <div className="max-w-md mx-auto mt-10 p-4 rounded-md bg-white shadow-lg">
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <div className="mb-4">
+          <label htmlFor="name" className="text-lg font-semibold">Name:</label>
+          <input
+            type="text"
+            id="name"
+            value={name}
+            onChange={e => setName(e.target.value)}
+            className="w-full p-2 mt-1 border rounded-lg"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="address" className="text-lg font-semibold">Address:</label>
+          <input
+            type="text"
+            id="address"
+            value={address}
+            onChange={e => setAddress(e.target.value)}
+            className="w-full p-2 mt-1 border rounded-lg"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="contact" className="text-lg font-semibold">Contact:</label>
+          <input
+            type="text"
+            id="contact"
+            value={contact}
+            onChange={e => setContact(e.target.value)}
+            className="w-full p-2 mt-1 border rounded-lg"
+          />
+        </div>
+        <div className="flex justify-center items-center">
+          <button
+            type="submit"
+            className="bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600 transition-colors"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
   );
 }
 

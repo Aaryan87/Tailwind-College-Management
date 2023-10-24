@@ -51,6 +51,7 @@ export default class Graph_2 extends PureComponent {
   render() {
     return (
         <BarChart
+        className='bg-gray-800'
           width={850}
           height={500}
           data={data}
