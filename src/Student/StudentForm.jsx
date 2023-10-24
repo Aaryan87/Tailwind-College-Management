@@ -24,36 +24,36 @@ function StudentForm() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-10 p-4 rounded-md bg-white shadow-lg">
+    <div className="max-w-md mx-auto mt-10 p-4 rounded-md bg-gray-800  shadow-lg">
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="mb-4">
-          <label htmlFor="name" className="text-lg font-semibold">Name:</label>
+          <label htmlFor="name" className="text-lg font-semibold  text-white">Name:</label>
           <input
             type="text"
             id="name"
             value={name}
             onChange={e => setName(e.target.value)}
-            className="w-full p-2 mt-1 border rounded-lg"
+            className="w-full p-2 mt-1 border rounded-lg  bg-gray-600"
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="address" className="text-lg font-semibold">Address:</label>
+          <label htmlFor="address" className="text-lg font-semibold text-white">Address:</label>
           <input
             type="text"
             id="address"
             value={address}
             onChange={e => setAddress(e.target.value)}
-            className="w-full p-2 mt-1 border rounded-lg"
+            className="w-full p-2 mt-1 border rounded-lg  bg-gray-600"
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="contact" className="text-lg font-semibold">Contact:</label>
+          <label htmlFor="contact" className="text-lg font-semibold text-white">Contact:</label>
           <input
             type="text"
             id="contact"
             value={contact}
             onChange={e => setContact(e.target.value)}
-            className="w-full p-2 mt-1 border rounded-lg"
+            className="w-full p-2 mt-1 border rounded-lg bg-gray-600"
           />
         </div>
         <div className="flex justify-center items-center">
