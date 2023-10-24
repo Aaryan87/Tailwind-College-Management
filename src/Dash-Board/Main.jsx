@@ -120,7 +120,7 @@ const Main = () => {
               <h2 className="text-white">Server Migration</h2>
               <Progress
                 percent={30}
-                strokeColor={{ "0%": "#E74A3B", "100%": "white" }}
+                strokeColor={{ "0%": "#E74A3B", "100%": "black" }}
               />
             </div>
             <div>
@@ -128,7 +128,7 @@ const Main = () => {
               <Progress
                 percent={50}
                 status="active"
-                strokeColor={{ "0%": "#F6C23E", "100%": "white" }}
+                strokeColor={{ "0%": "#F6C23E", "100%": "black" }}
               />
             </div>
             <div>
@@ -136,14 +136,14 @@ const Main = () => {
               <Progress
                 percent={70}
                 status="active"
-                strokeColor={{ "0%": "#4E73DF", "100%": "white" }}
+                strokeColor={{ "0%": "#4E73DF", "100%": "black" }}
               />
             </div>
             <div>
               <h2 className="text-white">Payout Details</h2>
               <Progress
                 percent={100}
-                strokeColor={{ "0%": "#36B9CC", "100%": "white" }}
+                strokeColor={{ "0%": "#36B9CC", "100%": "black" }}
               />
             </div>
             <div>
@@ -151,7 +151,7 @@ const Main = () => {
               <Progress
                 percent={50}
                 status="exception"
-                strokeColor={{ "0%": "#1CC88A", "100%": "white" }}
+                strokeColor={{ "0%": "#1CC88A", "100%": "black" }}
               />
             </div>
           </div>
