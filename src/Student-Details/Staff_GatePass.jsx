@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function DisplayGatePassData() {
   const [formData, setFormData] = useState({});
@@ -13,7 +13,6 @@ function DisplayGatePassData() {
   }, []);
 
   const handleRemove = () => {
-    // Remove data from local storage
     localStorage.removeItem('gatePassData');
     setIsRemoved(true);
   };
@@ -21,7 +20,7 @@ function DisplayGatePassData() {
   return (
     <div className="bg-gray-900 text-white min-h-screen flex items-center justify-center">
       <div className="bg-gray-800 rounded-lg shadow-md p-8 w-1/2">
-        <h2 className="text-3xl font-bold text-center mb-6">Gate Pass Data</h2>
+        <h2 className="text-3xl font-bold text-center mb-6">Gate Pass Applied By Student</h2>
         {isRemoved ? (
           <p className="text-green-500 font-semibold mb-4">Data Removed</p>
         ) : (
