@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Home from "./home";
+import Home from "./Home";
 function Home_App ()
 {
   return (
@@ -13,7 +13,7 @@ function Home_App ()
           <div className="md:w-1/2 ">
             <ul className="text-white pb-4">
               <li className="inline-block cursor-pointer md:mr-8 md:mx-0 mx-4 md:ml-2 border-b-2">CHALKPAD</li>
-              <Link to="/">
+              <Link to="/admin-dashboard">
                 <li className="inline-block cursor-pointer md:mr-8 md:mx-0 mx-4">ADMIN</li>
               </Link>
               <Link to="/staff-dashboard">

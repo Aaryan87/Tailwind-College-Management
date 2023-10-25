@@ -9,9 +9,9 @@ import ContactUs from "../Last-Pages/ContactUs"
 import Student_App from "../Student-Dash-Board/Student_App"
 import Student_Main from "../Student-Dash-Board/Student_Main"
 import Calendar from "../calendar/cn_output"
-import Student_Filter_Index from "../Student/Student_Filter_Index"
+// import Student_Filter_Index from "../Student/Student_Filter_Index"
 import Index1 from "../Staff/Index1"
-import Staff_Filter_Index from "../Staff/Staff_Filter_Index"
+// import Staff_Filter_Index from "../Staff/Staff_Filter_Index"
 import Student_Attendance from "../Student-Details/Student_Attendance"
 import Gate_Pass from "../Student-Details/GatePass"
 import Staff_App from "../Staff-Dash-Board/Staff_App"
@@ -28,20 +28,20 @@ const Router = () => {
         <BrowserRouter>
                 <Routes>
                     
-                    <Route path="/home" element={<Home_App />} index />
+                    <Route path="/" element={<Home_App />} index />
 
                     <Route path="/register" element={<Register/>} />
                     <Route path="/login" element={<Login/>} />
 
                     {/* Admin dashboard Routing done here */}
-                    <Route path="/" element={<App />}>
+                    <Route path="/admin-dashboard" element={<App />}>
                         <Route index element={<Main />} />
 
                         <Route path="addstudent" element={<Index/>} />
-                        <Route path="/filter-student" element={<Student_Filter_Index/>}/>
+                        {/* <Route path="/filter-student" element={<Student_Filter_Index/>}/> */}
 
                         <Route path="addstaff" element={<Index1/>}/>
-                        <Route path="/filter-staff" element={<Staff_Filter_Index/>}/>
+                        {/* <Route path="/filter-staff" element={<Staff_Filter_Index/>}/> */}
 
                         <Route path="assisgnment" element={<FileUpload/>} />
                         <Route path="contactus" element={<ContactUs/>} />
