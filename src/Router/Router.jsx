@@ -17,12 +17,16 @@ import Gate_Pass from "../Student-Details/GatePass"
 import Staff_App from "../Staff-Dash-Board/Staff_App"
 import Staff_Main from "../Staff-Dash-Board/Staff_Main"
 import DisplayGatePassData from "../Student-Details/Staff_GatePass"
+import Home_App from "../Home-Page/Home_App"
 
 const Router = () => {
   return (
     <div>
         <BrowserRouter>
                 <Routes>
+                    
+                    <Route path="/home" element={<Home_App />} index />
+
                     <Route path="/register" element={<Register/>} />
                     <Route path="/login" element={<Login/>} />
 
