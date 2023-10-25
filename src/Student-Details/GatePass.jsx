@@ -41,6 +41,15 @@ function Gate_Pass() {
     if (Object.keys(errors).length === 0) {
       localStorage.setItem('gatePassData', JSON.stringify(formData));
       setIsFormSubmitted(true);
+      setFormData({
+        studentName: '',
+        parentName: '',
+        parentContact: '',
+        enrollmentOption: 'fullDay',
+        fromTime: '',
+        toTime: '',
+        reason: '',
+      });
     } else {
       setFormErrors(errors);
     }

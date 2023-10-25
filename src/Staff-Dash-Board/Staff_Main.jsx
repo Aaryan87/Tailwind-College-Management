@@ -35,7 +35,7 @@ const Staff_Main = () => {
 
         {/* Second Card Component */}
 
-        <Link to="addstaff">
+        <Link to="student-marks">
           <div className=" h-[100px] rounded-[8px] bg-gray-800 border-l-[4px] border-[#56cd70] flex items-center justify-between px-[30px] cursor-pointer hover:shadow-lg transform hover:scale-[103%] transition duration-300 ease-out">
             <div>
               <h2 className="text-[#B589DF] text-[11px] leading-[17px] font-bold">
