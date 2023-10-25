@@ -16,6 +16,7 @@ import Student_Attendance from "../Student-Details/Student_Attendance"
 import Gate_Pass from "../Student-Details/GatePass"
 import Staff_App from "../Staff-Dash-Board/Staff_App"
 import Staff_Main from "../Staff-Dash-Board/Staff_Main"
+import DisplayGatePassData from "../Student-Details/Staff_GatePass"
 
 const Router = () => {
   return (
@@ -60,6 +61,8 @@ const Router = () => {
                         <Route path="assisgnment" element={<FileUpload/>}/>
                         <Route path="contactus" element={<ContactUs/>}/>
                         <Route path="calendar" element={<Calendar/>}/>
+
+                        <Route path="staff-gate-pass" element={<DisplayGatePassData/>}/>
 
                         <Route path="gate-pass" element={<Gate_Pass/>}/>
                     </Route>

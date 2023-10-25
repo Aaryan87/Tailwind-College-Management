@@ -39,6 +39,7 @@ function Gate_Pass() {
     }
 
     if (Object.keys(errors).length === 0) {
+      localStorage.setItem('gatePassData', JSON.stringify(formData));
       setIsFormSubmitted(true);
     } else {
       setFormErrors(errors);

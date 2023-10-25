@@ -15,12 +15,14 @@ const Staff_SideBar = () => {
             </Link>
             <div className='pt-[15px] border-b-[1px] border-[#EDEDED]/[0.3]'>
                 <p className='text-[10px] font-extrabold leading-[16px] text-white/[0.4]'> INTERFACE</p>
+                <Link to="staff-gate-pass">
                 <div className='flex items-center justify-between gap-[10px] py-[15px] cursor-pointer'>
                     <div className='flex items-center gap-[10px]'>
                         <FaRegSun color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Gate Pass</p>
                     </div>
                     <FaChevronRight color='white' />
                 </div>
+                </Link>
                 <div className='flex items-center justify-between gap-[10px] py-[15px] cursor-pointer'>
                     <div className='flex items-center gap-[10px]'>
                         <FaWrench color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Utilities</p>

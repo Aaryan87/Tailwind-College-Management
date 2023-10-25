@@ -1,5 +1,5 @@
 import { FaEnvelope, FaRegBell, FaSearch } from "react-icons/fa"
-import profile from '../assets/profile.jpg'
+/* import profile from '../assets/profile.jpg' */
 
 
 const Staff_Header = () => {
@@ -21,7 +21,7 @@ const Staff_Header = () => {
                     <div className='flex items-center gap-[15px] relative'  >{/* onClick={showProfile} */}
                         <p>Harshit And Saksham</p>
                         <div className='h-[50px] w-[50px] rounded-full bg-[#4E73DF] cursor-pointer flex items-center justify-center relative z-40' >
-                             <img src={profile} alt="" className='rounded-full' />
+                             {/* <img src={profile} alt="" className='rounded-full' /> */}
 
                         </div>
 
