@@ -34,8 +34,7 @@ const Login = () => {
           <h1 className='text-5xl text-white font-extrabold my-4 font-poppins'>Turn Your Ideas into Reality</h1>
           <p className='text-xl text-white font-normal font-poppins'>
           At Our College, we are dedicated to providing a world-class education and fostering an 
-          environment of innovation, diversity, and personal growth. With a rich history of academic 
-          excellence and a commitment to the future, we stand as a beacon of learning and development.
+          environment of personal growth.
           </p>
         </div>
         <img
