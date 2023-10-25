@@ -25,7 +25,6 @@ function FilterStudent() {
       {filteredStudents.map(student => (
         <div key={student.id}>
         {student.name} - {student.address} - {student.contact}
-          {/* display student details */}
         </div>
       ))}
     </div>
