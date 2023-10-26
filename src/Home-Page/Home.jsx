@@ -4,7 +4,7 @@ const Home = () => {
   let [open, setopen] = useState(false);
   const menus = [
     { name: "HOME", path: "/" },
-    { name: "ABOUT-US", path: "/" }, //change to actual about us if it exists or change title
+    { name: "ABOUT-US", path: "/" },
     { name: "SIGN-UP", path: "/register" },
     { name: "LOGIN", path: "/login" },
   ];
