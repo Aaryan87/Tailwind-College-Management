@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Register() {
   const [name, setName] = useState("");
@@ -117,6 +118,7 @@ function Register() {
                 </span>
               </label>
             </div>
+            <Link to="/login">
             <div className="mt-5">
               <button
                 type="submit"
@@ -125,6 +127,7 @@ function Register() {
                 Register Now
               </button>
             </div>
+            </Link>
           </form>
         </div>
       </div>

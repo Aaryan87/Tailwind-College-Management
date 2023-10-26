@@ -84,17 +84,17 @@ const Login = () => {
             </a>
           </div>
 
+          <Link to="/admin-dashboard" >
           <div className='w-full flex flex-col my-4'>
+            
             <button
               className='w-full text-[#f5f5f5] my-2 font-semibold bg-purple-500 hover:bg-purple-700 ease-in-out duration-500 rounded-md p-4 text-center flex items-center justify-center cursor-pointer'
               onClick={clickhandler}
             >
               Login
-            </button>
-            {/* <button className='w-full text-[#060606] my-2 font-semibold bg-white border border-[#f5f5f5] rounded-md p-4 text-center flex items-center justify-center cursor-pointer'>
-                        Register
-                    </button> */}
+            </button> 
           </div>
+          </Link>
 
           <div className='w-full flex items-center justify-center relative py-2'>
             <div className='w-full h-[1px] bg-[#f5f5f5]'></div>
