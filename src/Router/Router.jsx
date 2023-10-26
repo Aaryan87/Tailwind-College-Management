@@ -21,6 +21,7 @@ import Home_App from "../Home-Page/Home_App"
 import Student_Marks from "../Student-Details/Student_Marks"
 import Marks_Display from "../Student-Details/Marks_Display"
 import Display_Marks_Student from "../Staff-Details/Display_Marks_Student"
+import AboutUs from "../Last-Pages/AboutUs"
 
 const Router = () => {
   return (
@@ -45,6 +46,7 @@ const Router = () => {
 
                         <Route path="assisgnment" element={<FileUpload/>} />
                         <Route path="contactus" element={<ContactUs/>} />
+                        <Route path="aboutus" element={<AboutUs/>}/>
                         <Route path="calendar" element={<Calendar/>}/>
                     </Route>
 
@@ -56,6 +58,7 @@ const Router = () => {
                         
                         <Route path="assisgnment" element={<FileUpload/>}/>
                         <Route path="contactus" element={<ContactUs/>}/>
+                        <Route path="aboutus" element={<AboutUs/>}/>
                         <Route path="calendar" element={<Calendar/>}/>
                         
                         {/* Student can apply for gate pass */}
@@ -72,6 +75,7 @@ const Router = () => {
                         
                         <Route path="assisgnment" element={<FileUpload/>}/>
                         <Route path="contactus" element={<ContactUs/>}/>
+                        <Route path="aboutus" element={<AboutUs/>}/>
                         <Route path="calendar" element={<Calendar/>}/>
 
                         <Route path="student-marks" element={<Student_Marks/>}/>

@@ -42,9 +42,11 @@ const Student_SideBar = () => {
                     <FaChevronRight color='white' />
                 </div>
                 </Link>
+                <Link to="aboutus">
                 <div className='flex items-center gap-[10px] py-[15px]  cursor-pointer'>
                     <FaRegChartBar color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>About Us</p>
                 </div>
+                </Link>
                 <Link to="contactus">
                 <div className='flex items-center gap-[10px] py-[15px] cursor-pointer'>
                     <FaRegCalendarAlt color='white' /> <p className='text-[14px] leading-[20px] font-normal text-white'>Contact Us</p>
