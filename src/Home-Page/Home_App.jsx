@@ -28,16 +28,6 @@ function Home_App ()
             Our College is a renowned institution of higher education known for its commitment 
             to academic excellence and fostering a vibrant learning community.
             </p>
-            {/* <div className="flex md:justify-between justify-around lg:w-1/2 w-auto pt-10">
-              <div>
-                <span className="text-[#d2d8f9] text-sm">Avg. distance</span>
-                <h1 className="text-white text-xl">384,400 KM</h1>
-              </div>
-              <div>
-                <span className="text-[#d2d8f9] text-sm">Est. travel time</span>
-                <h1 className="text-white text-xl">3 DAYS</h1>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
